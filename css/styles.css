@@ -59,10 +59,10 @@ h1{
 p.box {
 	left: 80%;
 	top: 0px;
-	margin: 0px;
+	margin: 5px;
 	text-align: center;
 	border: 1px solid black;
-	width: 15%;
+	width: 20%;
 	border-top: 1px;
 	border-right: 1px;
 	float:right ;
@@ -80,7 +80,7 @@ p.relative {
 	margin: 0px;
 	text-align: center;
 	border: 1px solid black;
-	width: 15%;
+	width: 20%;
 	border-top: 1px;
 	border-right: 1px;
 	float:right ;
