@@ -74,6 +74,21 @@ p.box {
 	
 }
 
+p.relative {
+	position: relative;
+	top: 0px;
+	margin: 0px;
+	text-align: center;
+	border: 1px solid black;
+	width: 15%;
+	border-top: 1px;
+	border-right: 1px;
+	float:right ;
+	background-color: aqua;
+	font-weight: bold;
+	padding: 3px;
+}
+
 
 
 div {
