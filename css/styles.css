@@ -1,19 +1,23 @@
 * {
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 	font-family: 'Times New Roman', Times, serif;
 }
 
 @media (min-width: 992px) {
 	.col-lg-4, .special {
 		float:left;
-		border: 1px solid black;
+		border: 1px solid black ;
 	}
 
-	.col-lg-4 { 
-		width: 33%;
+	.col-lg-4 {
+		margin: 1%; 
+		width: 30%;
+
 	}
-	.special { 
-		width: 33%;
+	.special {
+		margin: 1%; 
+		width: 30%;
+
 	}
 }
 
@@ -24,11 +28,12 @@
 	}
 
 	.col-md-6 { 
-		width: 48%;
+		width: 44%;
+		margin: 3%;
 	}
 
 	.special {
-		width: 96%;
+		width: 94%;
 	}
 }
 
@@ -39,7 +44,8 @@
 	}
 
 	.col-sd-12 { 
-		width: 100%;
+		width: 90%;
+		margin: 5%;
 	}
 	
 }
@@ -48,7 +54,7 @@ p {
 	padding: 3px;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 16px;
-	color: blue;
+	color: black;
 	text-align: center;
 }
 
@@ -61,7 +67,7 @@ p.box {
 	top: 0px;
 	margin: 5px;
 	text-align: center;
-	border: 1px solid black;
+	border: 3px solid black;
 	width: 20%;
 	border-top: 1px;
 	border-right: 1px;
@@ -91,6 +97,21 @@ p.relative {
 
 
 
-div {
-	margin: 1px;
+#chicken p.relative {
+	background-color: pink;
+	color: black;
+}
+
+#beef p.relative {
+	background-color: brown;
+	color: white;
+}
+
+#sushi p.relative {
+	background-color: gold;
+	color: black;
+}
+
+div div {
+	background-color: gray;
 }
